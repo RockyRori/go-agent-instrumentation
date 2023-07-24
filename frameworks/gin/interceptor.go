@@ -7,8 +7,7 @@ import (
 	"time"
 )
 
-type ServerHTTPInterceptor struct {
-}
+type ServerHTTPInterceptor struct{}
 
 func (s *ServerHTTPInterceptor) BeforeInvoke(invocation *core.Invocation) error {
 	instance := invocation.CallerInstance.(core.EnhancedInstance)
