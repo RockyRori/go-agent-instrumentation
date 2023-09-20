@@ -17,3 +17,6 @@ so that it can dynamically intercept framework code execution and add its own ex
 |-- frameworks/gin    // the gin framework instrument test
 |-- test              // the gin server(which needs to be intrument)
 ```
+
+# Hybrid compilation
+本项目为Golang混合编译的练手项目。
